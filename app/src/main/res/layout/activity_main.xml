@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activity.MainActivity">
+
+        <EditText
+                android:id="@+id/mtinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="enter expression"
+                android:layout_marginTop="150dp"
+        />
+
+        <TextView
+                android:layout_below="@+id/mtinput"
+                android:id="@+id/txtview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+        />
+
+        <Button
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/txtview"
+                android:id="@+id/btn_submit"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+        />
+
+        <Button
+                android:id="@+id/btnhistorytab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Open History" />
+
+    </RelativeLayout>
+</layout>
